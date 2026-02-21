@@ -25,7 +25,7 @@ export default function Navbar() {
             {/* Logo — place logo.png in /public to replace this */}
             <Link href="/" className="flex items-center">
               <Image
-                src="/logo.svg"
+                src="/logo.png"
                 alt="Central Valley Vein and Wound Center"
                 width={200}
                 height={52}
