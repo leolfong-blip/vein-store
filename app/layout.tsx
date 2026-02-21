@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className="bg-gray-50 text-gray-900 min-h-screen flex flex-col">
+      <body className="bg-white text-gray-900 min-h-screen flex flex-col">
         <CartProvider>
           <Navbar />
           <CartDrawer />

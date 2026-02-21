@@ -102,7 +102,7 @@ export default function CartDrawer() {
             </div>
             <a
               href={cart?.checkoutUrl}
-              className="block w-full bg-brand-600 hover:bg-brand-700 text-white text-center font-bold py-3 rounded-xl transition-colors"
+              className="block w-full bg-brand-700 hover:bg-brand-800 text-white text-center font-bold py-3 rounded transition-colors"
             >
               Checkout
             </a>

@@ -29,7 +29,7 @@ export default function ProductCard({ product }: Props) {
   }
 
   return (
-    <div className="group bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col">
+    <div className="group bg-white border border-gray-200 shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col rounded">
       <Link href={`/shop/${product.handle}`} className="relative block aspect-square bg-gray-50 overflow-hidden">
         {image ? (
           <Image
@@ -44,17 +44,19 @@ export default function ProductCard({ product }: Props) {
         )}
       </Link>
 
-      <div className="p-4 flex flex-col flex-1">
+      <div className="p-5 flex flex-col flex-1">
         <Link href={`/shop/${product.handle}`}>
-          <h3 className="font-semibold text-gray-800 hover:text-brand-700 transition-colors line-clamp-2">{product.title}</h3>
+          <h3 className="font-semibold text-gray-800 hover:text-brand-700 transition-colors line-clamp-2 text-base leading-snug">
+            {product.title}
+          </h3>
         </Link>
-        <p className="text-brand-700 font-bold mt-1">
+        <p className="text-brand-700 font-bold mt-2 text-lg">
           {price.currencyCode} {parseFloat(price.amount).toFixed(2)}
         </p>
         <button
           onClick={handleAddToCart}
           disabled={loading}
-          className="mt-auto pt-3 w-full bg-brand-600 hover:bg-brand-700 disabled:opacity-60 text-white text-sm font-semibold py-2.5 rounded-xl transition-colors"
+          className="mt-auto w-full bg-brand-700 hover:bg-brand-800 disabled:opacity-60 text-white text-sm font-semibold py-2.5 rounded transition-colors mt-4"
         >
           {loading ? 'Adding…' : 'Add to Cart'}
         </button>
