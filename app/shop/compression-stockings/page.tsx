@@ -1,6 +1,7 @@
 import { getProductsByCollection, ShopifyProduct } from '@/lib/shopify'
 import ProductGrid from '@/components/ProductGrid'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export const metadata = { title: 'Compression Stockings — VeinCare' }
 
@@ -53,8 +54,15 @@ export default async function CompressionPage() {
   return (
     <div>
       {/* Page hero */}
-      <section className="bg-brand-800 text-white py-14 px-4">
-        <div className="max-w-5xl mx-auto">
+      <section className="relative bg-brand-800 text-white overflow-hidden">
+        <Image
+          src="https://picsum.photos/seed/compression-stockings-legs/1400/520"
+          alt="Person wearing compression stockings"
+          fill
+          className="object-cover opacity-20"
+          priority
+        />
+        <div className="relative z-10 py-20 px-4 max-w-5xl mx-auto">
           <Link href="/shop" className="text-brand-300 hover:text-white text-sm font-medium transition-colors">
             &larr; All Products
           </Link>

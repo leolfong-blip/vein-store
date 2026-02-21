@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { ShoppingCartIcon, Bars3Icon, XMarkIcon, ChevronDownIcon } from '@heroicons/react/24/outline'
 import { useState } from 'react'
 import { useCart } from '@/lib/cart-context'
@@ -21,12 +22,16 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
 
-            {/* Logo */}
-            <Link href="/" className="flex items-center gap-3">
-              <span className="text-white font-extrabold text-xl tracking-tight">VeinCare</span>
-              <span className="hidden sm:block text-brand-300 text-sm font-medium border-l border-brand-600 pl-3">
-                Professional Vein Health
-              </span>
+            {/* Logo — place logo.png in /public to replace this */}
+            <Link href="/" className="flex items-center">
+              <Image
+                src="/logo.svg"
+                alt="Central Valley Vein and Wound Center"
+                width={200}
+                height={52}
+                className="h-11 w-auto object-contain"
+                priority
+              />
             </Link>
 
             {/* Desktop nav */}
