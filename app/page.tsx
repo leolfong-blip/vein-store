@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { getAllProducts, ShopifyProduct } from '@/lib/shopify'
 import ProductGrid from '@/components/ProductGrid'
 
@@ -51,7 +52,15 @@ export default async function HomePage() {
   return (
     <div>
       {/* Hero */}
-      <section className="bg-brand-800 text-white py-28 px-4">
+      <section className="relative bg-brand-800 text-white overflow-hidden min-h-[520px] flex items-center">
+        <Image
+          src="https://picsum.photos/seed/vein-healthcare-central-valley/1600/620"
+          alt="Vein health care professional"
+          fill
+          className="object-cover opacity-25"
+          priority
+        />
+        <div className="relative z-10 py-28 px-4 w-full">
         <div className="max-w-5xl mx-auto">
           <p className="text-gold-400 text-sm font-semibold uppercase tracking-widest mb-4">
             Central Valley Vein Health
@@ -72,6 +81,7 @@ export default async function HomePage() {
               Learn More
             </Link>
           </div>
+        </div>
         </div>
       </section>
 

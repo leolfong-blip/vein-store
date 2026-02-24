@@ -20,16 +20,16 @@ export default function Navbar() {
       {/* Main nav */}
       <div className="bg-brand-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16">
+          <div className="flex items-center justify-between py-3">
 
             {/* Logo */}
-            <Link href="/" className="flex items-center bg-white rounded px-3 py-1.5">
+            <Link href="/" className="flex items-center bg-white rounded px-4 py-2">
               <Image
                 src="/logo.png"
                 alt="Central Valley Vein and Wound Center"
-                width={240}
-                height={64}
-                className="h-14 w-auto object-contain"
+                width={420}
+                height={112}
+                className="h-24 w-auto object-contain"
                 priority
               />
             </Link>
