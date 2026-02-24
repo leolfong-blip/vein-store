@@ -2,7 +2,7 @@ import { articles } from '@/lib/articles'
 import ArticleCard from '@/components/ArticleCard'
 import Link from 'next/link'
 
-export const metadata = { title: 'Education Hub — VeinCare' }
+export const metadata = { title: 'Education Hub — CVVW' }
 
 const categories = ['All', 'Basics', 'Compression', 'Supplements', 'Venoactive Drugs', 'Clinical Reference']
 

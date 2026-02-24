@@ -36,6 +36,9 @@ export default function Navbar() {
 
             {/* Desktop nav */}
             <nav className="hidden lg:flex items-center">
+              <Link href="/" className="text-sm text-brand-100 hover:text-white px-5 py-5 font-medium transition-colors border-b-2 border-transparent hover:border-gold-400">
+                Home
+              </Link>
               {/* Shop dropdown */}
               <div className="relative group">
                 <button className="flex items-center gap-1 text-sm text-brand-100 hover:text-white px-5 py-5 font-medium transition-colors border-b-2 border-transparent hover:border-gold-400">
@@ -101,6 +104,9 @@ export default function Navbar() {
             MPFF
           </Link>
           <div className="border-t border-brand-700 mt-3 pt-3">
+            <Link href="/" onClick={() => setMobileOpen(false)} className="block py-2 text-sm text-brand-100 hover:text-white font-medium">
+              Home
+            </Link>
             <Link href="/education" onClick={() => setMobileOpen(false)} className="block py-2 text-sm text-brand-100 hover:text-white font-medium">
               Education
             </Link>

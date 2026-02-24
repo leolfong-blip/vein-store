@@ -11,7 +11,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const article = getArticle(params.slug)
   if (!article) return {}
   return {
-    title: `${article.title} — VeinCare Education`,
+    title: `${article.title} — CVVW Education`,
     description: article.summary,
   }
 }

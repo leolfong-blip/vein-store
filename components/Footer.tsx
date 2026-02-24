@@ -7,7 +7,7 @@ export default function Footer() {
 
         {/* Brand */}
         <div className="lg:col-span-2">
-          <h3 className="text-white font-extrabold text-xl mb-3 tracking-tight">VeinCare</h3>
+          <h3 className="text-white font-extrabold text-xl mb-3 tracking-tight">CVVW</h3>
           <div className="w-10 h-0.5 bg-gold-500 mb-4" />
           <p className="text-sm leading-relaxed max-w-sm">
             Physician-formulated products and evidence-based education for the management of varicose veins,
@@ -41,7 +41,7 @@ export default function Footer() {
       </div>
 
       <div className="border-t border-brand-800 text-center py-4 text-xs text-brand-600">
-        &copy; {new Date().getFullYear()} VeinCare. For informational purposes only. Consult a qualified healthcare professional before starting any treatment.
+        &copy; {new Date().getFullYear()} CVVW. For informational purposes only. Consult a qualified healthcare professional before starting any treatment.
       </div>
     </footer>
   )

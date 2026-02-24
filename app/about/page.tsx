@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 
-export const metadata: Metadata = { title: 'About Us — VeinCare' }
+export const metadata: Metadata = { title: 'About Us — CVVW' }
 
 const team = [
   {
@@ -27,10 +27,10 @@ export default function AboutPage() {
       <section className="bg-brand-800 text-white py-16 px-4">
         <div className="max-w-5xl mx-auto">
           <p className="text-gold-400 text-sm font-semibold uppercase tracking-widest mb-3">About Us</p>
-          <h1 className="text-4xl font-extrabold mb-4">About VeinCare</h1>
+          <h1 className="text-4xl font-extrabold mb-4">About CVVW</h1>
           <div className="w-14 h-1 bg-gold-500 mb-6" />
           <p className="text-brand-200 text-lg max-w-2xl leading-relaxed">
-            Founded by vascular health professionals in California&apos;s Central Valley, VeinCare exists
+            Founded by vascular health professionals in California&apos;s Central Valley, CVVW exists
             to make clinically-validated venous health products and education accessible to every patient.
           </p>
         </div>
@@ -84,7 +84,7 @@ export default function AboutPage() {
           <h2 className="text-3xl font-extrabold text-brand-800 mb-1">Based in California&apos;s Central Valley</h2>
           <div className="w-14 h-1 bg-gold-500 mb-6" />
           <p className="text-gray-600 mb-6 leading-relaxed max-w-2xl">
-            VeinCare is rooted in the Central Valley of California — one of the most medically underserved regions
+            CVVW is rooted in the Central Valley of California — one of the most medically underserved regions
             in the state. We operate clinics across the Valley to ensure patients have access to specialist-level
             vein care close to home.
           </p>
@@ -101,7 +101,7 @@ export default function AboutPage() {
         <div className="bg-brand-50 border-l-4 border-brand-600 p-6 mb-12 rounded-r">
           <h2 className="font-bold text-brand-800 text-lg mb-2">Medical Disclaimer</h2>
           <p className="text-brand-900 text-sm leading-relaxed">
-            The content on VeinCare is for informational and educational purposes only. It does not constitute
+            The content on CVVW is for informational and educational purposes only. It does not constitute
             medical advice and should not be used as a substitute for consultation with a qualified healthcare
             professional. Always seek the advice of your doctor or vascular specialist before starting, changing,
             or stopping any treatment.

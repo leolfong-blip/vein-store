@@ -3,7 +3,7 @@ import ProductGrid from '@/components/ProductGrid'
 import Link from 'next/link'
 import Image from 'next/image'
 
-export const metadata = { title: 'Compression Stockings — VeinCare' }
+export const metadata = { title: 'Compression Stockings — CVVW' }
 
 const benefits = [
   { title: 'Reduce Swelling', body: 'Graduated compression shifts fluid out of the interstitial space and back into the venous and lymphatic circulation, reducing ankle and leg swelling throughout the day.' },

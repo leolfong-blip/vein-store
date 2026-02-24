@@ -3,7 +3,7 @@ import ProductGrid from '@/components/ProductGrid'
 import Link from 'next/link'
 import Image from 'next/image'
 
-export const metadata = { title: 'MPFF — VeinCare' }
+export const metadata = { title: 'MPFF — CVVW' }
 
 export default async function MPFFPage() {
   let products: ShopifyProduct[] = []

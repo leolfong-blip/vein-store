@@ -3,7 +3,7 @@ import ProductGrid from '@/components/ProductGrid'
 import Link from 'next/link'
 import Image from 'next/image'
 
-export const metadata = { title: 'Horse Chestnut — VeinCare' }
+export const metadata = { title: 'Horse Chestnut — CVVW' }
 
 export default async function HorseChestnutPage() {
   let products: ShopifyProduct[] = []

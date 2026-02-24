@@ -154,7 +154,7 @@ export default async function HomePage() {
       <section className="bg-brand-800 py-20 px-4 text-white">
         <div className="max-w-7xl mx-auto">
           <div className="mb-12">
-            <p className="text-gold-400 text-sm font-semibold uppercase tracking-widest mb-2">Why VeinCare</p>
+            <p className="text-gold-400 text-sm font-semibold uppercase tracking-widest mb-2">Why CVVW</p>
             <h2 className="text-3xl font-extrabold">Why Choose Us</h2>
             <div className="w-14 h-1 bg-gold-500 mt-4" />
           </div>

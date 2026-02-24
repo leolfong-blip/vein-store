@@ -1,7 +1,7 @@
 import { getAllProducts, ShopifyProduct } from '@/lib/shopify'
 import ProductGrid from '@/components/ProductGrid'
 
-export const metadata = { title: 'All Products — VeinCare' }
+export const metadata = { title: 'All Products — CVVW' }
 
 export default async function ShopPage() {
   let products: ShopifyProduct[] = []

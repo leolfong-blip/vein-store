@@ -6,7 +6,7 @@ import Footer from '@/components/Footer'
 import CartDrawer from '@/components/CartDrawer'
 
 export const metadata: Metadata = {
-  title: 'VeinCare — Compression Stockings, Horse Chestnut & MPFF',
+  title: 'CVVW — Compression Stockings, Horse Chestnut & MPFF',
   description: 'Shop clinically-backed treatments for varicose veins and chronic venous insufficiency, plus expert educational resources.',
 }
 
