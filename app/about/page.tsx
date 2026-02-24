@@ -17,7 +17,7 @@ const team = [
 ]
 
 const locations = [
-  'Fresno', 'Clovis', 'Visalia', 'Hanford', 'Selma', 'Stockton',
+  'Salinas', 'Fresno', 'Clovis', 'Visalia', 'Hanford', 'Selma', 'Stockton',
 ]
 
 export default function AboutPage() {

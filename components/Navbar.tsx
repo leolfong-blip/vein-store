@@ -14,7 +14,7 @@ export default function Navbar() {
     <header className="sticky top-0 z-40 shadow-lg">
       {/* Top info bar */}
       <div className="bg-brand-900 text-brand-200 text-xs text-center py-1.5 px-4 tracking-wide">
-        Serving the Central Valley — Fresno · Clovis · Visalia · Hanford · Selma · Stockton
+        Serving the Central Valley &amp; Salinas — Fresno · Clovis · Visalia · Hanford · Selma · Stockton · Salinas
       </div>
 
       {/* Main nav */}
@@ -61,6 +61,9 @@ export default function Navbar() {
               </Link>
               <Link href="/about" className="text-sm text-brand-100 hover:text-white px-5 py-5 font-medium transition-colors border-b-2 border-transparent hover:border-gold-400">
                 About Us
+              </Link>
+              <Link href="/contact" className="text-sm text-gold-400 hover:text-gold-300 px-5 py-5 font-bold transition-colors border-b-2 border-transparent hover:border-gold-400">
+                Contact
               </Link>
             </nav>
 
@@ -112,6 +115,9 @@ export default function Navbar() {
             </Link>
             <Link href="/about" onClick={() => setMobileOpen(false)} className="block py-2 text-sm text-brand-100 hover:text-white font-medium">
               About Us
+            </Link>
+            <Link href="/contact" onClick={() => setMobileOpen(false)} className="block py-2 text-sm text-gold-400 hover:text-gold-300 font-bold">
+              Contact
             </Link>
           </div>
         </div>

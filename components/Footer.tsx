@@ -14,7 +14,7 @@ export default function Footer() {
             chronic venous insufficiency, and related vascular conditions. Based in California&apos;s Central Valley.
           </p>
           <p className="text-xs text-brand-500 mt-4">
-            Serving Fresno, Clovis, Visalia, Hanford, Selma, and Stockton.
+            Serving Salinas, Fresno, Clovis, Visalia, Hanford, Selma, and Stockton.
           </p>
         </div>
 
