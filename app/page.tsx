@@ -62,7 +62,7 @@ export default async function HomePage() {
           <div className="w-16 h-1 bg-gold-500 mb-6" />
           <p className="text-brand-200 text-lg sm:text-xl mb-10 max-w-2xl leading-relaxed">
             Physician-formulated compression stockings, horse chestnut, and MPFF — paired with expert
-            education on venous health. Trusted by patients across California's Central Valley.
+            education on venous health. Trusted by patients across California&apos;s Central Valley.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link href="/shop" className="btn-primary text-center">

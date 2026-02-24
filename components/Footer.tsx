@@ -11,7 +11,7 @@ export default function Footer() {
           <div className="w-10 h-0.5 bg-gold-500 mb-4" />
           <p className="text-sm leading-relaxed max-w-sm">
             Physician-formulated products and evidence-based education for the management of varicose veins,
-            chronic venous insufficiency, and related vascular conditions. Based in California's Central Valley.
+            chronic venous insufficiency, and related vascular conditions. Based in California&apos;s Central Valley.
           </p>
           <p className="text-xs text-brand-500 mt-4">
             Serving Fresno, Clovis, Visalia, Hanford, Selma, and Stockton.

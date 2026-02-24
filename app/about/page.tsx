@@ -30,7 +30,7 @@ export default function AboutPage() {
           <h1 className="text-4xl font-extrabold mb-4">About VeinCare</h1>
           <div className="w-14 h-1 bg-gold-500 mb-6" />
           <p className="text-brand-200 text-lg max-w-2xl leading-relaxed">
-            Founded by vascular health professionals in California's Central Valley, VeinCare exists
+            Founded by vascular health professionals in California&apos;s Central Valley, VeinCare exists
             to make clinically-validated venous health products and education accessible to every patient.
           </p>
         </div>
@@ -81,7 +81,7 @@ export default function AboutPage() {
         {/* Location */}
         <div className="mb-16">
           <p className="text-gold-500 text-sm font-semibold uppercase tracking-widest mb-2">Where We Are</p>
-          <h2 className="text-3xl font-extrabold text-brand-800 mb-1">Based in California's Central Valley</h2>
+          <h2 className="text-3xl font-extrabold text-brand-800 mb-1">Based in California&apos;s Central Valley</h2>
           <div className="w-14 h-1 bg-gold-500 mb-6" />
           <p className="text-gray-600 mb-6 leading-relaxed max-w-2xl">
             VeinCare is rooted in the Central Valley of California — one of the most medically underserved regions
