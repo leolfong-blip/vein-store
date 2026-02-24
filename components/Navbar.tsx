@@ -22,14 +22,14 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
 
-            {/* Logo — place logo.png in /public to replace this */}
-            <Link href="/" className="flex items-center">
+            {/* Logo */}
+            <Link href="/" className="flex items-center bg-white rounded px-3 py-1.5">
               <Image
                 src="/logo.png"
                 alt="Central Valley Vein and Wound Center"
-                width={200}
-                height={52}
-                className="h-11 w-auto object-contain"
+                width={240}
+                height={64}
+                className="h-14 w-auto object-contain"
                 priority
               />
             </Link>
