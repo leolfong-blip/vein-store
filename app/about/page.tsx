@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export const metadata: Metadata = { title: 'About Us — CVVW' }
 
@@ -62,7 +63,17 @@ export default function AboutPage() {
           <div className="w-14 h-1 bg-gold-500 mb-8" />
 
           <div className="bg-white border border-gray-200 rounded shadow-sm overflow-hidden">
-            <div className="bg-brand-800 px-8 py-6">
+            <div className="bg-brand-800 px-8 py-6 flex flex-col sm:flex-row gap-6 items-start">
+              <div className="flex-shrink-0">
+                <Image
+                  src="/dr-fong.jpeg"
+                  alt="Dr. Leo Fong, MD"
+                  width={120}
+                  height={120}
+                  className="rounded-full object-cover border-4 border-gold-500"
+                />
+              </div>
+              <div>
               <h3 className="text-white font-extrabold text-2xl">Leo L. Fong, MD</h3>
               <p className="text-gold-400 font-semibold text-sm mt-1">Founder &amp; Medical Director &mdash; Central Valley Vein and Wound Centers</p>
               <div className="flex flex-wrap gap-3 mt-4">
@@ -71,6 +82,7 @@ export default function AboutPage() {
                 <span className="bg-brand-700 text-brand-100 text-xs font-semibold px-3 py-1 rounded">Wound Care</span>
                 <span className="bg-brand-700 text-brand-100 text-xs font-semibold px-3 py-1 rounded">Amputation Prevention</span>
                 <span className="bg-brand-700 text-brand-100 text-xs font-semibold px-3 py-1 rounded">Lymphedema</span>
+              </div>
               </div>
             </div>
 
