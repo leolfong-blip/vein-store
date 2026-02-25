@@ -68,8 +68,8 @@ export default function AboutPage() {
                 <Image
                   src="/dr-fong.jpeg"
                   alt="Dr. Leo Fong, MD"
-                  width={120}
-                  height={120}
+                  width={240}
+                  height={240}
                   className="rounded-full object-cover border-4 border-gold-500"
                 />
               </div>
